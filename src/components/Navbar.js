@@ -15,7 +15,7 @@ function Navbar() {
                 <div className="navbar-container">
 
                     <div className="navbar-logo">
-                        RUN aaaaa
+                        RUN
                         <i class="fa-solid fa-person-running bg-danger" />
                     </div>
 
