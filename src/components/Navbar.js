@@ -11,6 +11,7 @@ function Navbar() {
     
     return (
         <>
+        <p class="text-center bg-warning p-2 h5">Work in Progress</p>
             <nav className='navbar'>
                 <div className="navbar-container">
 
