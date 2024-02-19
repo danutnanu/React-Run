@@ -15,8 +15,8 @@ function Navbar() {
                 <div className="navbar-container">
 
                     <div className="navbar-logo">
-                        RUN
-                        <i class="fa-solid fa-person-running" />
+                        RUN aaaaa
+                        <i class="fa-solid fa-person-running bg-danger" />
                     </div>
 
                     <div className='menu-icon' onClick={handleClick}>
