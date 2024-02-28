@@ -8,7 +8,7 @@ function Navbar() {
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-    
+
     return (
         <>
             <nav className='navbar'>
@@ -19,13 +19,19 @@ function Navbar() {
                         <i class="fa-solid fa-person-running bg-danger" />
                     </div>
 
+                    {/* Hamburger Menu */}
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
+                    {/* Hamburger Menu */}
 
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/run2022' className='nav-links' onClick={closeMobileMenu}>
+                            <Link
+                                to='/run2022'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
                                 2022
                             </Link>
                         </li>
