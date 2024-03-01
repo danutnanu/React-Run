@@ -5,9 +5,10 @@
     font-family: 'PT Sans', sans-serif;
   }
   
-  .run2022,
-  .run2023,
-  .run2024 {
+  .home,
+  .services,
+  .products,
+  .sign-up {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -15,7 +16,7 @@
     font-size: 3rem;
   }
   
-  .run2022 {
+  .services {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,15 +24,17 @@
     font-size: 100px;
   }
   
-  .run2023 {
+  .products {
     background-position: center;
     background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
   }
   
-  .run2024 {
+  .sign-up {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
