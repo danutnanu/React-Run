@@ -14,9 +14,9 @@ function Navbar() {
             <nav className='navbar'>
                 <div className="navbar-container">
 
-                    <div className="navbar-logo" onClick={handleClick}>
+                    <div className="navbar-logo h1" onClick={handleClick}>
                         RUN
-                        <i class="fa-solid fa-person-running bg-danger" />
+                        <i class="fa-solid fa-person-running bg-danger rounded ms-2" />
                     </div>
 
                     {/* Hamburger Menu */}
@@ -26,7 +26,7 @@ function Navbar() {
                     {/* Hamburger Menu */}
 
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className='nav-item'>
+                    <li className='nav-item mt-2'>
                             <Link
                                 to='/'
                                 className='nav-links'
@@ -34,7 +34,7 @@ function Navbar() {
                                 Home
                             </Link>
                         </li>
-                        <li className='nav-item'>
+                        <li className='nav-item mt-2'>
                             <Link
                                 to='/services'
                                 className='nav-links'
@@ -43,7 +43,7 @@ function Navbar() {
                                 2022
                             </Link>
                         </li>
-                        <li className='nav-item'>
+                        <li className='nav-item mt-2'>
                             <Link
                                 to='/products'
                                 className='nav-links'
@@ -52,7 +52,7 @@ function Navbar() {
                                 2023
                             </Link>
                         </li>
-                        <li className='nav-item'>
+                        <li className='nav-item mt-2 align-items-right'>
                             <Link
                                 to='/sign-up'
                                 className='nav-links'
