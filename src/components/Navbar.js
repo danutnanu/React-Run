@@ -13,7 +13,6 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className="navbar-container">
-
                     <div className="navbar-logo h1" onClick={handleClick}>
                         RUN
                         <i class="fa-solid fa-person-running bg-danger rounded ms-2" />
@@ -26,7 +25,7 @@ function Navbar() {
                     {/* Hamburger Menu */}
 
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className='nav-item mt-2'>
+                        <li className='nav-item mt-2'>
                             <Link
                                 to='/'
                                 className='nav-links'
