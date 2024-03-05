@@ -13,7 +13,7 @@ function HeroSection() {
             <p className='text-secondary'>LEARN IN</p>
             <p className='text-warning h2'>26.2 MILES"</p>
         </div>
-    )
+    );
 }
 
 export default HeroSection;
