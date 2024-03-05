@@ -39,7 +39,7 @@ function Navbar() {
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                                2022
+                                Run2022
                             </Link>
                         </li>
                         <li className='nav-item mt-2'>
@@ -48,7 +48,7 @@ function Navbar() {
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                                2023
+                                Run2023
                             </Link>
                         </li>
                         <li className='nav-item mt-2 align-items-right'>
@@ -57,7 +57,7 @@ function Navbar() {
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                                2024
+                                Run2024
                             </Link>
                         </li>
                     </ul>
