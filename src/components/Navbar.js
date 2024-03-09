@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 function Navbar() {
@@ -26,39 +25,16 @@ function Navbar() {
 
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item mt-2'>
-                            <Link
-                                to='/'
-                                className='nav-links'
-                                onClick={closeMobileMenu}>
-                                Home
-                            </Link>
+                            <a href='/#' className='nav-links' onClick={closeMobileMenu}>Home</a>
                         </li>
                         <li className='nav-item mt-2'>
-                            <Link
-                                to='/run2022'
-                                className='nav-links'
-                                onClick={closeMobileMenu}
-                            >
-                                Run2022
-                            </Link>
+                            <a href='/#run2022' className='nav-links' onClick={closeMobileMenu}>Run 2022</a>
                         </li>
                         <li className='nav-item mt-2'>
-                            <Link
-                                to='/run2023'
-                                className='nav-links'
-                                onClick={closeMobileMenu}
-                            >
-                                Run2023
-                            </Link>
+                            <a href='/#run2023' className='nav-links' onClick={closeMobileMenu}>Run 2023</a>
                         </li>
                         <li className='nav-item mt-2 align-items-right'>
-                            <Link
-                                to='/run2024'
-                                className='nav-links'
-                                onClick={closeMobileMenu}
-                            >
-                                Run2024
-                            </Link>
+                            <a href='/#run2024' className='nav-links' onClick={closeMobileMenu}>Run 2024</a>
                         </li>
                     </ul>
                 </div>
