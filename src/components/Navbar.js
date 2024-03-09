@@ -14,7 +14,7 @@ function Navbar() {
                 <div className="navbar-container">
                     <div className="navbar-logo h1" onClick={handleClick}>
                         RUN
-                        <i class="fa-solid fa-person-running bg-danger rounded ms-2" />
+                        <i className="fa-solid fa-person-running bg-danger rounded ms-2" />
                     </div>
 
                     {/* Hamburger Menu */}
