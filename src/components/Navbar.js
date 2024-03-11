@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className="navbar-container">
-          <div className="navbar-logo h1" onClick={handleClick}>
+          <div className="navbar-logo h1 mt-2" onClick={handleClick}>
             RUN
             <i className="fa-solid fa-person-running bg-danger rounded ms-2" />
           </div>
