@@ -5,11 +5,11 @@ import CardItem from './CardItem'
 function Cards() {
   return (
     <div className="cards">
-      <h1 className='mb-5'>Marathons aren't just about running.</h1>
+      <h1 className='' id='run2022'>Marathons aren't just about running.</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
 
-          <p className='m-5 text-center h1' id='run2022'>2022</p>
+          <p className='mb-5 text-center h1'>2022</p>
           <ul className='cards__items'>
             <CardItem
               src='images/run1.png'
@@ -29,13 +29,13 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/run3.png'
-              text='First running in 13.1 miles'
+              text=' The story of the Exeter Marathon - May 2023'
               label='Crazy Run'
               path='#'
             />
             <CardItem
               src='images/run4.png'
-              text='First running in 26.2 miles'
+              text='Eden Marathon - October 2023'
               label='Crazy Run'
               path='#'
             />
