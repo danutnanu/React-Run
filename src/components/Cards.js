@@ -24,8 +24,10 @@ function Cards() {
               path='#'
             />
           </ul>
+          <ul>
 
-          <p className='mt-5 mb-5 text-center h1' id='run2023'>2023</p>
+          </ul>
+          
           <ul className='cards__items'>
             <CardItem
               src='images/run3.png'
@@ -50,13 +52,13 @@ function Cards() {
               path='#'
             />
             <CardItem
-              src='images/logo2.png'
+              src='images/logo.png'
               text='coming soon...'
               label='Crazy Run'
               path='#'
             />
             <CardItem
-              src='images/logo.png'
+              src='images/logo2.png'
               text='October 2024'
               label='Crazy Run'
               path='#'

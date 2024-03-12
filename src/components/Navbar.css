@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(154, 250, 98) 0%, rgb(255, 218, 8) 100%);
+    background: linear-gradient(90deg, rgb(200, 245, 174) 0%, rgb(250, 242, 194) 100%);
     height: 80px;
     /* display: flex; */
     justify-content: center;
@@ -69,12 +69,12 @@
       position: absolute;
       top: 80px;
       left: -100%;
-      opacity: 1;
+      opacity: 3;
       transition: all 0.5s ease;
     }
   
     .nav-menu.active {
-      background: #531c38;
+      background: #e3ebf8;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -83,13 +83,13 @@
   
     .nav-links {
       text-align: center;
-      padding: 2rem;
+      padding: 2.5rem;
       width: 100%; 
       display: table;
     }
   
     .nav-links:hover {
-      background-color: #fff;
+      background-color: #fffbb0;
       color: #242424;
       border-radius: 0;
     }

@@ -1,6 +1,6 @@
 .cards {
   padding: 4rem;
-  background: #f7eadf;
+  background: #e3e2e3;
 }
 
 h1 {
@@ -25,7 +25,8 @@ h1 {
   display: flex;
   flex: 1;
   margin: 0 1rem;
-  border-radius: 80px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
 }
 
 .cards__item__link {
@@ -82,7 +83,7 @@ h1 {
 }
 
 #run2022, #run2023, #run2024 {
-  background-color: #f7eadf;
+  background-color: #e3e2e3;
   /* margin-top: 60px; */
   padding-top: 90px;
 }
