@@ -12,9 +12,9 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className="navbar-container">
-          <div className="navbar-logo h1 mt-2" onClick={handleClick}>
+          <div className="navbar-logo h1 mt-2 text-secondary" onClick={handleClick}>
             RUN
-            <i className="fa-solid fa-person-running bg-danger rounded ms-2" />
+            <i className="fa-solid fa-person-running bg-info rounded ms-2" />
           </div>
 
           {/* Hamburger Menu */}
@@ -25,16 +25,16 @@ function Navbar() {
 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item mt-2'>
-              <a href='/#' className='nav-links' onClick={closeMobileMenu}>Home</a>
+              <a href='/#' className='nav-links text-secondary' onClick={closeMobileMenu}>Home</a>
             </li>
             <li className='nav-item mt-2'>
-              <a href='/#run2022' className='nav-links' onClick={closeMobileMenu}>Run 2022</a>
+              <a href='/#run2022' className='nav-links text-secondary' onClick={closeMobileMenu}>Run 2022</a>
             </li>
             <li className='nav-item mt-2'>
-              <a href='/#run2023' className='nav-links' onClick={closeMobileMenu}>Run 2023</a>
+              <a href='/#run2023' className='nav-links text-secondary' onClick={closeMobileMenu}>Run 2023</a>
             </li>
             <li className='nav-item mt-2 align-items-right'>
-              <a href='/#run2024' className='nav-links' onClick={closeMobileMenu}>Run 2024</a>
+              <a href='/#run2024' className='nav-links text-secondary' onClick={closeMobileMenu}>Run 2024</a>
             </li>
           </ul>
         </div>
