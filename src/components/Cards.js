@@ -9,7 +9,7 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
 
-          <p className='my-5 text-center h1'>2022</p>
+          <p className='mb-5 text-center h1'>2022</p>
           <ul className='cards__items'>
             <CardItem
               src='images/run1.png'
