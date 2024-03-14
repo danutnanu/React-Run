@@ -78,7 +78,7 @@
     }
   
     .nav-links:hover {
-      background-color: #d8d7d7;
+      background-color: rgb(216, 236, 203);
       color: #242424;
       border-radius: 0;
     }
