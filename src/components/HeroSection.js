@@ -15,8 +15,8 @@ function HeroSection() {
 
       <div className='hero-second text-center m-5'>
         <h1 className='text-warning h1'>"EVERYTHING</h1>
-        <p className='h1'>YOU WANTED TO KNOW</p>
-        <p className='h4'>ABOUT YOURSELF YOU CAN LEARN IN</p>
+        <p className='h1'>YOU WANTED TO KNOW ABOUT YOURSELF</p>
+        <p className='h4'>YOU CAN LEARN IN</p>
         <p className='text-warning h1'>26.2 MILES"</p>
       </div>
     </div>
