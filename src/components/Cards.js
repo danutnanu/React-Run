@@ -45,13 +45,13 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/logo.png'
-              text='coming soon...'
+              text='Coming soon...'
               label='Crazy Run'
               path='#'
             />
             <CardItem
               src='images/logo.png'
-              text='coming soon...'
+              text='Coming soon...'
               label='Crazy Run'
               path='#'
             />
