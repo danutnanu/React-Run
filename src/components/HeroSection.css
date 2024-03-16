@@ -60,10 +60,10 @@ video {
   }
 
   .hero-first {
-    align-items: center;
+    /* align-items: center; */
     width: auto;
-    font-size: 80px;
-    margin-left: 40px;
+    /* font-size: 80px; */
+    /* margin-left: 40px; */
   }
 
   .hero-second {
@@ -73,7 +73,7 @@ video {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .hero-container {
     flex-direction: column;
     align-items: center;
@@ -81,48 +81,48 @@ video {
 
   .hero-first {
     align-items: center;
-    width: auto;
+    /* width: auto; */
     font-size: 30px;
-    padding-top: 50px;
-    padding-bottom: none;
-    margin-bottom: none;
-    margin-bottom: 10px;
-    margin-left: 40px;
+    /* padding-top: 50px; */
+    /* padding-bottom: none; */
+    /* margin-bottom: none; */
+    /* margin-bottom: 10px; */
+    /* margin-left: 40px; */
   }
 
   .hero-second {
     align-items: top;
     width: auto;
     font-size: 0px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-bottom: 10px;
   }
 
-  .hero-container>h1 {
+  /* .hero-container>h1 {
     font-size: 50px;
     margin-top: -100px;
-  }
+  } */
 
   .hero-first>p {
     align-items: center;
     width: auto;
-    font-size: 30px;
-    margin-top: 10px;
-    padding-top: 80px;
+    /* font-size: 30px; */
+    /* margin-top: 10px; */
+    /* padding-top: 80px; */
   }
 
   .hero-second>h1 {
-    align-items: center;
+    /* align-items: center; */
     font-size: 50px;
-    height: fit-content;
-    margin-bottom: 100px;
+    /* height: fit-content; */
+    /* margin-bottom: 100px; */
   }
 
-  .hero-second>p {
-    align-items: center;
-    width: auto;
-    font-size: 30px;
-    height: fit-content;
-    margin-bottom: 30px;
-  }
+  /* .hero-second>p { */
+    /* align-items: center; */
+    /* width: auto; */
+    /* font-size: 30px; */
+    /* height: fit-content; */
+    /* margin-bottom: 30px; */
+  /* } */
 }
