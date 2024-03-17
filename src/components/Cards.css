@@ -22,11 +22,11 @@ h1 {
 }
 
 .cards__item {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
   display: flex;
   flex: 1;
   margin: 0 1rem;
-  border-radius: 10px;
-  background-color: rgb(255, 255, 255);
 }
 
 .cards__item__link {
