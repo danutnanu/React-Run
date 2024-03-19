@@ -1,3 +1,7 @@
+# MOVED
+
+This project will continue here:  [React Vite](https://github.com/danutnanu/MilesOfMemories-React).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
